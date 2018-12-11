@@ -26,6 +26,4 @@ https://www.macxdvd.com/download/macx-video-converter-pro.dmg
 
 # Tips
 
-Turn off GateKeeper (Open app from Anywhere):
-
-`sudo spctl --master-disable`
+Turn off GateKeeper (Open app from Anywhere), run `sudo spctl --master-disable` and `sudo spctl --master-enable` to turn it on.
