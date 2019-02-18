@@ -1,6 +1,10 @@
 # whiteblack-hackintosh
 MSI B360m Mortar | i5-8400 | 16GB RAM | Sapphire Pulse RX 580 8GB | macOS Mojave 10.14.2 Vanilla Install
 
+# Mainboard BIOS
+- 1.40 (7B23v14) - NOT WORKING (ApplleNVMe Assert Failed)
+- 1.30 ([7B23v13](https://www.msi.com/Motherboard/support/B360M-MORTAR#down-bios)) - WORKING
+
 # Kexts
 | Tables                   | Version            | URL                                           |
 | ------------------------ |------------------- | --------------------------------------------- |
