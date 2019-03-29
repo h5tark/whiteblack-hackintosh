@@ -1,5 +1,5 @@
 # whiteblack-hackintosh
-MSI B360m Mortar | i5-8400 | 16GB RAM | Sapphire Pulse RX 580 8GB | macOS Mojave 10.14.3 Vanilla Install
+MSI B360m Mortar | i5-8400 | 16GB RAM | Sapphire Pulse RX 580 8GB | macOS Mojave 10.14.4 Vanilla Install
 
 # Mainboard BIOS
 - 1.40 (7B23v14) - NOT WORKING (ApplleNVMe Assert Failed)
@@ -8,15 +8,18 @@ MSI B360m Mortar | i5-8400 | 16GB RAM | Sapphire Pulse RX 580 8GB | macOS Mojave
 # Mainboard BIOS Setting
 - Multi-monitor: Enabled
 
+# Clover v2.4k_r4911
+<https://github.com/Dids/clover-builder/releases>
+
 # Kexts
 | Tables                   | Version            | URL                                           |
 | ------------------------ |------------------- | --------------------------------------------- |
-| FakeSMC                  | 2018-0915          | <https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/> |
+| VirtualSMC               | 1.0.2              | <https://github.com/acidanthera/VirtualSMC/releases> |
 | IntelMausiEthernet       | 2.5.0d0            | <https://github.com/Mieze/IntelMausiEthernet> |
 | USBInjectAll             | 0.7.1 (2018-1108)  | <https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/> |
-| Lilu                     | 1.2.8              | <https://github.com/acidanthera/Lilu/releases> |
-| AppleALC                 | 1.3.3              | <https://github.com/acidanthera/AppleALC/releases> |
-| WhateverGreen            | 1.2.4              | <https://github.com/acidanthera/WhateverGreen/releases> |
+| Lilu                     | 1.3.5              | <https://github.com/acidanthera/Lilu/releases> |
+| AppleALC                 | 1.3.6              | <https://github.com/acidanthera/AppleALC/releases> |
+| WhateverGreen            | 1.2.7              | <https://github.com/acidanthera/WhateverGreen/releases> |
 | XHCI-unsupported         | 0.9.2 (2018‑10‑20) | <https://bitbucket.org/RehabMan/os-x-usb-inject-all/src> |
 
 # Hardware Acceleration
