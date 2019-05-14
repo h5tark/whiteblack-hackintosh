@@ -160,13 +160,13 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>device-id</key>
-                <data>
-                kj4AAA==
-                </data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AwCSPg==
+				</data>
+				<key>device-id</key>
+				<data>
+				kj4AAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
@@ -186,12 +186,6 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-			<string>VM</string>
-			<string>Recovery</string>
-		</array>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -222,32 +216,52 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Port limit increase (PMHeart)</string>
+				<string>USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
-				g/sPD4MDBQAA
+				g/sPDw==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
-				<string>10.14.0</string>
+				<string>10.14.x</string>
 				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
 				<data>
-				g/sPkJCQkJCQ
+				g/s/Dw==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Port limit increase (Ricky)</string>
+				<string>USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g/sPD4OPBAAA
+				g+MP0w==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				g+M/0w==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPDw==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -257,25 +271,27 @@
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				g/sPkJCQkJCQ
+				g/s/Dw==
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>External Icons Patch</string>
+				<string>USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				RXh0ZXJuYWw=
+				g/8PDw==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
 				<key>Name</key>
-				<string>AppleAHCIPort</string>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				SW50ZXJuYWw=
+				g/8/Dw==
 				</data>
 			</dict>
 		</array>
@@ -287,20 +303,20 @@
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
 		<key>MLB</key>
-		<string>C02032109R5DC771H</string>
+		<string></string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BoardSerialNumber</key>
-		<string>C027045004NJ0PGCB</string>
+		<string>C029191044NLNV91H</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02T5059J1GJ</string>
+		<string>C02YP0ZTJV3Q</string>
 		<key>SmUUID</key>
-		<string>18E1440B-AC94-4C3E-8237-84F1D3B0891D</string>
+		<string>7878FE63-4F48-401F-8F03-369E7087092F</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
