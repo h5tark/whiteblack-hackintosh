@@ -69,6 +69,7 @@ Have to enable Multi-Monitor in BIOS
 - VideoProc: https://www.macxdvd.com/mac-video-converter-pro/
 https://www.macxdvd.com/download/macx-video-converter-pro.dmg
 - FBpatcher: http://headsoft.com.au/download/mac/FBPatcher.zip
+- Hackintool: http://headsoft.com.au/download/mac/Hackintool.zip
 
 
 
