@@ -51,7 +51,9 @@ Download [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip), open 
 # Clover v2.4k_r4929
 Download: <https://github.com/Dids/clover-builder/releases>
 
-**Important:** When install new Clover to EFI, on the Installation Type step, click `Customize` then **uncheck** `AptioMemoryFix-64` in `UEFI Drivers` (MSI board won't boot without doing this).
+**Important:** When installing new Clover version to EFI, on the Installation Type step, click `Customize` then **uncheck** `AptioMemoryFix-64` in `UEFI Drivers`.
+
+To enable NVRAM, **check** `EmuVariableUefi-64.efi` & **check** `Install RC scripts on target volume`
 
 
 
