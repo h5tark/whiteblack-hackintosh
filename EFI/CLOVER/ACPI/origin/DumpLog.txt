@@ -1,0 +1,124 @@
+45:604  19:619  Found UEFI Acpi 2.0 RSDP at 7A280000
+45:604  0:000  Saving ACPI tables from RSDP 7A280000 to EFI\CLOVER\ACPI\origin ...
+45:604  0:000   7A280000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+45:615  0:011    (Xsdt: 7A2800A8, Rsdt: 7A280028)
+45:615  0:000    7A2800A8: 'XSDT', 'A M I', Rev: 1, Len: 212 -> XSDT.aml
+45:626  0:011    7A280028: 'RSDT', 'A M I', Rev: 1, Len: 124 -> RSDT.aml
+45:637  0:010    Tables in Xsdt: 22
+45:637  0:000    0. 7A2C21B8: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+45:648  0:011        (Dsdt: 7A280218, Facs: 7A31E080, XDsdt: 7A280218, XFacs: 0)
+45:648  0:000        7A280218: 'DSDT', 'A M I', Rev: 2, Len: 270239 -> DSDT.aml
+45:703  0:054        7A31E080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+45:714  0:011    1. 7A2C22D0: 'APIC', 'A M I', Rev: 4, Len: 160 -> APIC.aml
+45:725  0:011    2. 7A2C2370: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+45:738  0:012    3. 7A2C23B8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+45:749  0:011    4. 7A2C2458: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+45:760  0:010    5. 7A2C2498: 'SSDT', 'SataTabl', Rev: 1, Len: 888 -> SSDT-0-SataTabl.aml
+45:771  0:011    6. 7A2C2810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+45:784  0:012        * 79D64298: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1668  53 53 44 54 84 06 00 00 02 D8 50 6D 52 65 66 00 Internal length = 1668 -> SSDT-x1_0-Cpu0Ist.aml
+45:795  0:010        * 79D60018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x1_1-ApIst.aml
+45:807  0:012        * 79D5F018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+45:818  0:011        * 79D61C18: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+45:831  0:012        * 79D61018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x1_4-Cpu0Hwp.aml
+45:842  0:011        * 79D5F698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+45:855  0:012        * 79D61198: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+45:866  0:011  
+45:866  0:000    7. 7A2C3FE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12744 -> SSDT-2-SaSsdt.aml
+45:877  0:010    8. 7A2C71B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9112 -> SSDT-3-PegSsdt.aml
+45:889  0:011    9. 7A2C9548: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+45:899  0:010    10. 7A2C9580: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998 -> SSDT-4-Ther_Rvp.aml
+45:911  0:011    11. 7A2CA520: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 10580 -> SSDT-5-xh_cfsd4.aml
+45:922  0:011    12. 7A2CCE78: 'UEFI', 'A M I', Rev: 1, Len: 72 -> UEFI.aml
+45:933  0:010    13. 7A2CCEC0: 'LPIT', 'A M I', Rev: 1, Len: 92 -> LPIT.aml
+45:944  0:010    14. 7A2CCF20: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-6-PtidDevc.aml
+45:955  0:011    15. 7A2CF700: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094 -> SSDT-7-TbtTypeC.aml
+45:966  0:010    16. 7A2D0700: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+45:982  0:016    17. 7A2D0738: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+45:993  0:010    18. 7A2D0790: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6449 -> SSDT-8-UsbCTabl.aml
+46:004  0:011    19. 7A2D20C8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-9-ADebTabl.aml
+46:015  0:010    20. 7A2D2210: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+46:026  0:010    21. 7A2D2248: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+46:037  0:010    Tables in Rsdt: 22
+46:037  0:000    0. 7A280190: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+46:050  0:012        (Dsdt: 7A280218, Facs: 7A31E040)
+46:050  0:000        7A280218: 'DSDT', 'A M I', Rev: 2, Len: 270239
+46:055  0:005        7A31E040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+46:066  0:010    1. 7A2C22D0: 'APIC', 'A M I', Rev: 4, Len: 160
+46:066  0:000    2. 7A2C2370: 'FPDT', 'A M I', Rev: 1, Len: 68
+46:066  0:000    3. 7A2C23B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+46:066  0:000    4. 7A2C2458: 'MCFG', 'A M I', Rev: 1, Len: 60
+46:066  0:000    5. 7A2C2498: 'SSDT', 'SataTabl', Rev: 1, Len: 888
+46:066  0:000    6. 7A2C2810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+46:066  0:000    7. 7A2C3FE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12744
+46:066  0:000    8. 7A2C71B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9112
+46:066  0:000    9. 7A2C9548: 'HPET', 'A M I', Rev: 1, Len: 56
+46:066  0:000    10. 7A2C9580: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+46:066  0:000    11. 7A2CA520: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 10580
+46:066  0:000    12. 7A2CCE78: 'UEFI', 'A M I', Rev: 1, Len: 72
+46:066  0:000    13. 7A2CCEC0: 'LPIT', 'A M I', Rev: 1, Len: 92
+46:066  0:000    14. 7A2CCF20: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+46:066  0:000    15. 7A2CF700: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+46:066  0:000    16. 7A2D0700: 'DBGP', 'A M I', Rev: 1, Len: 52
+46:066  0:000    17. 7A2D0738: 'DBG2', 'A M I', Rev: 0, Len: 84
+46:066  0:000    18. 7A2D0790: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6449
+46:066  0:000    19. 7A2D20C8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+46:066  0:000    20. 7A2D2210: 'BGRT', 'A M I', Rev: 1, Len: 56
+46:066  0:000    21. 7A2D2248: 'WSMT', 'A M I', Rev: 1, Len: 40
+46:066  0:000  Found UEFI Acpi 1.0 RSDP at 7A280000
+46:066  0:000  Printing ACPI tables from RSDP 7A280000 ...
+46:066  0:000   7A280000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+46:066  0:000    (Xsdt: 7A2800A8, Rsdt: 7A280028)
+46:066  0:000    7A2800A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+46:066  0:000    7A280028: 'RSDT', 'A M I', Rev: 1, Len: 124
+46:066  0:000    Tables in Xsdt: 22
+46:066  0:000    0. 7A2C21B8: 'FACP', 'A M I', Rev: 6, Len: 276
+46:066  0:000        (Dsdt: 7A280218, Facs: 7A31E080, XDsdt: 7A280218, XFacs: 0)
+46:066  0:000        7A280218: 'DSDT', 'A M I', Rev: 2, Len: 270239
+46:071  0:005        7A31E080: 'FACS', Ver: 2, Len: 64
+46:071  0:000    1. 7A2C22D0: 'APIC', 'A M I', Rev: 4, Len: 160
+46:071  0:000    2. 7A2C2370: 'FPDT', 'A M I', Rev: 1, Len: 68
+46:071  0:000    3. 7A2C23B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+46:071  0:000    4. 7A2C2458: 'MCFG', 'A M I', Rev: 1, Len: 60
+46:071  0:000    5. 7A2C2498: 'SSDT', 'SataTabl', Rev: 1, Len: 888
+46:071  0:000    6. 7A2C2810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+46:071  0:000    7. 7A2C3FE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12744
+46:071  0:000    8. 7A2C71B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9112
+46:071  0:000    9. 7A2C9548: 'HPET', 'A M I', Rev: 1, Len: 56
+46:071  0:000    10. 7A2C9580: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+46:071  0:000    11. 7A2CA520: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 10580
+46:071  0:000    12. 7A2CCE78: 'UEFI', 'A M I', Rev: 1, Len: 72
+46:071  0:000    13. 7A2CCEC0: 'LPIT', 'A M I', Rev: 1, Len: 92
+46:071  0:000    14. 7A2CCF20: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+46:071  0:000    15. 7A2CF700: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+46:071  0:000    16. 7A2D0700: 'DBGP', 'A M I', Rev: 1, Len: 52
+46:071  0:000    17. 7A2D0738: 'DBG2', 'A M I', Rev: 0, Len: 84
+46:072  0:000    18. 7A2D0790: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6449
+46:072  0:000    19. 7A2D20C8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+46:072  0:000    20. 7A2D2210: 'BGRT', 'A M I', Rev: 1, Len: 56
+46:072  0:000    21. 7A2D2248: 'WSMT', 'A M I', Rev: 1, Len: 40
+46:072  0:000    Tables in Rsdt: 22
+46:072  0:000    0. 7A280190: 'FACP', 'A M I', Rev: 2, Len: 132
+46:072  0:000        (Dsdt: 7A280218, Facs: 7A31E040)
+46:072  0:000        7A280218: 'DSDT', 'A M I', Rev: 2, Len: 270239
+46:077  0:005        7A31E040: 'FACS', Ver: 0, Len: 64
+46:077  0:000    1. 7A2C22D0: 'APIC', 'A M I', Rev: 4, Len: 160
+46:077  0:000    2. 7A2C2370: 'FPDT', 'A M I', Rev: 1, Len: 68
+46:077  0:000    3. 7A2C23B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+46:077  0:000    4. 7A2C2458: 'MCFG', 'A M I', Rev: 1, Len: 60
+46:077  0:000    5. 7A2C2498: 'SSDT', 'SataTabl', Rev: 1, Len: 888
+46:077  0:000    6. 7A2C2810: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+46:077  0:000    7. 7A2C3FE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12744
+46:077  0:000    8. 7A2C71B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9112
+46:077  0:000    9. 7A2C9548: 'HPET', 'A M I', Rev: 1, Len: 56
+46:077  0:000    10. 7A2C9580: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+46:077  0:000    11. 7A2CA520: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 10580
+46:077  0:000    12. 7A2CCE78: 'UEFI', 'A M I', Rev: 1, Len: 72
+46:077  0:000    13. 7A2CCEC0: 'LPIT', 'A M I', Rev: 1, Len: 92
+46:077  0:000    14. 7A2CCF20: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+46:077  0:000    15. 7A2CF700: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+46:077  0:000    16. 7A2D0700: 'DBGP', 'A M I', Rev: 1, Len: 52
+46:077  0:000    17. 7A2D0738: 'DBG2', 'A M I', Rev: 0, Len: 84
+46:077  0:000    18. 7A2D0790: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6449
+46:077  0:000    19. 7A2D20C8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+46:077  0:000    20. 7A2D2210: 'BGRT', 'A M I', Rev: 1, Len: 56
+46:077  0:000    21. 7A2D2248: 'WSMT', 'A M I', Rev: 1, Len: 40
