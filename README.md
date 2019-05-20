@@ -38,7 +38,7 @@ Open Terminal, run `uuidgen` then paste the output to line 319 (SmUUID).
 
   
 
-# Clover v2.4k_r4928
+# Clover v2.4k_r4929
 Download: <https://github.com/Dids/clover-builder/releases>
 
 **Important:** When install new Clover to EFI, on the Installation Type step, click `Customize` then **uncheck** `AptioMemoryFix-64` in `UEFI Drivers` (MSI board won't boot without doing this).
