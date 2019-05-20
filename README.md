@@ -27,9 +27,9 @@ Open Terminal, run `uuidgen` then paste the output to line 319 (SmUUID).
 
 # Mainboard BIOS
 
-- 1.40 (7B23v14) - NOT WORKING (ApplleNVMe Assert Failed)
+- 1.60 - 2019-04-01 - ([7B23v16](https://www.msi.com/Motherboard/support/B360M-MORTAR#down-bios)) - WORKING WITH DSDT PATCH
 
-- 1.30 ([7B23v13](https://www.msi.com/Motherboard/support/B360M-MORTAR#down-bios)) - WORKING
+- 1.30 - 2018-08-02 - ([7B23v13](https://www.msi.com/Motherboard/support/B360M-MORTAR#down-bios)) - WORKING WITHOUT DSDT PATCH (config.plist line 108-117)
 
   
 

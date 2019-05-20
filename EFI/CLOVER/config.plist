@@ -105,6 +105,16 @@
 					<key>Replace</key>
 					<data>U0FUQQ==</data>
 				</dict>
+				<dict>
+                    <key>Comment</key>
+                    <string>Fix MSI B360M Mortal DSDT Device(RTC) bug on BIOS v1.60 (credit pupin)</string>
+                    <key>Disabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>oAqTU1RBUwE=</data>
+                    <key>Replace</key>
+                    <data>oAqRCv8L//8=</data>
+                </dict>
 			</array>
 		</dict>
 		<key>SSDT</key>
