@@ -25,6 +25,12 @@ Open Terminal, run `uuidgen` then paste the output to line 319 (SmUUID).
 
 
 
+# Sleep issue
+
+Download [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip), open tab Power -> Fix sleepimage.
+
+
+
 # Mainboard BIOS
 
 - 1.60 - 2019-04-01 - ([7B23v16](https://www.msi.com/Motherboard/support/B360M-MORTAR#down-bios)) - WORKING WITH DSDT PATCH
@@ -35,6 +41,10 @@ Open Terminal, run `uuidgen` then paste the output to line 319 (SmUUID).
 
 # Mainboard BIOS Setting
 - Multi-monitor: Enabled
+
+- ErP Ready: Enabled
+
+- Wake with USB: on (optional)
 
   
 
