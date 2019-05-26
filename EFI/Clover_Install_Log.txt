@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Mon May 20 22:37:43 +07 2019
-Installer version: v2.4k r4929 EFI bootloader
+Clover EFI installer log - Sun May 26 14:17:21 +07 2019
+Installer version: v2.4k r4934 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -20,7 +20,7 @@ Installer version: v2.4k r4929 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh HD            276.5 GB   disk2s1
+   1:                APFS Volume Macintosh HD            297.4 GB   disk2s1
    2:                APFS Volume Preboot                 47.2 MB    disk2s2
    3:                APFS Volume Recovery                509.8 MB   disk2s3
    4:                APFS Volume VM                      2.1 GB     disk2s4
@@ -34,14 +34,18 @@ Target volume /Volumes/Macintosh HD on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r4928/2019-05-20-22h37/EFI
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r4929/2019-05-26-14h17/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
 Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
 
-Using default theme 'random'
+Installing RC scripts on target volume '/'
+
+
 ======================================================
 =========== Clover EFI Installation Finish ===========
 ======================================================
