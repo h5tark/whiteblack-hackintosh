@@ -48,24 +48,22 @@ Download [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip), open 
 
   
 
-# Clover v2.4k_r4934
+# Clover v2.5k_r5027
 Download: <https://github.com/Dids/clover-builder/releases>
 
-**Important:** When installing new Clover version to EFI, on the Installation Type step, click `Customize` then **uncheck** `AptioMemoryFix-64` in `UEFI Drivers`.
-
-To enable NVRAM, **check** `EmuVariableUefi-64.efi` & **check** `Install RC scripts on target volume`
+To enable NVRAM,  when installing Clover, **check** `UEFI Drivers -> Additional drivers -> EmuVariableUefi` & **check** `Install RC scripts on target volume`
 
 
 
 # Kexts
 | Tables             | Version            | URL                                                          |
 | ------------------ | ------------------ | ------------------------------------------------------------ |
-| VirtualSMC         | 1.0.4              | <https://github.com/acidanthera/VirtualSMC/releases>         |
+| VirtualSMC         | 1.0.6              | <https://github.com/acidanthera/VirtualSMC/releases>         |
 | IntelMausiEthernet | 2.5.0d0            | <https://github.com/Mieze/IntelMausiEthernet>                |
 | USBInjectAll       | 0.7.1 (2018-1108)  | <https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/> |
-| Lilu               | 1.3.6              | <https://github.com/acidanthera/Lilu/releases>               |
-| AppleALC           | 1.3.8              | <https://github.com/acidanthera/AppleALC/releases>           |
-| WhateverGreen      | 1.2.9              | <https://github.com/acidanthera/WhateverGreen/releases>      |
+| Lilu               | 1.3.7              | <https://github.com/acidanthera/Lilu/releases>               |
+| AppleALC           | 1.3.9              | <https://github.com/acidanthera/AppleALC/releases>           |
+| WhateverGreen      | 1.3.0              | <https://github.com/acidanthera/WhateverGreen/releases>      |
 | XHCI-unsupported   | 0.9.2 (2018‑10‑20) | <https://bitbucket.org/RehabMan/os-x-usb-inject-all/src>     |
 
 
